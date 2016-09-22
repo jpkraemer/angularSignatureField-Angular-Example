@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title>Signature Demo</title>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-signature-field/angular_signature_field.js"></script>
+    <script src="js/app.js"></script>
+  </head>
+
+  <body>
+    <h1>Sign below</h1>
+    
+    <div ng-controller="SignatureController">
+      <signature-field functions="signatureFunctions" style='border: 1px solid black; width: 400px; height: 200px; display: block;'></signature-field>
+      <div> 
+        <a href="#" ng-click="saveSignature()">Save</a>
+        <a href="#" ng-click="clearSignature()">Clear</a>
+      </div>
+      <img ng-src="{{signature}}" />
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "angular_signature_field_example",
+  "version": "1.0.0",
+  "description": "A bare-bones example on how to use angular_signature_field.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpkraemer/angularSignatureField-Angular-Example.git"
+  },
+  "author": "Jan-Peter Krämer <jpk@cs.rwth-aachen.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpkraemer/angularSignatureField-Angular-Example/issues"
+  },
+  "homepage": "https://github.com/jpkraemer/angularSignatureField-Angular-Example#readme"
+}
